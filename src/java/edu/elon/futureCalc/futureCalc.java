@@ -1,7 +1,7 @@
 /**
 
 Copyright (c) 2015 Elizabeth Walton & David Petroni
-
+http://elon-punt1.rhcloud.com/homework2/
  */
 package edu.elon.futureCalc;
 import java.io.Serializable;

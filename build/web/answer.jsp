@@ -1,6 +1,6 @@
 <!--
 Copyright (c) 2015 Elizabeth Walton & David Petroni
-
+http://elon-punt1.rhcloud.com/homework2/
 
 -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
