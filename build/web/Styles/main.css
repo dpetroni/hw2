@@ -1,19 +1,164 @@
+/*
+Copyright (c) 2015 Elizabeth Walton & David Petroni
 
-@media screen and (min-width:401px){
 
+*/
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 #box{
-    position: absolute;
-    margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+.whole{
+  border: 2px solid navy;
+  font-size: 1.2em;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: 700px ;
+}
+#foot{
+  border-top: 2px solid navy;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 700px;
+}
+#footText{
+  padding-left: 20px;
+}
+.alignLeft{
+  text-align: left;
+}
+
+h1{
+  color: navy;
+  padding-left: 20px;
+}
+
+.textBox{
+  text-align: left;
+  width: 150px;
+
+}
+label{
+  display: inline-block;
+  padding-right: 10px;
+  text-align: right;
+  width: 175px;
+}
+#button{
+  margin-left: 98px;
+
+}
+.answerText{
+  display: inline;
+  text-align:left;
+  width: 200px;
+}
+.answerInput{
+  display: inline;
+  margin-left:100px;
+  width:200px;
 }
 
 
 
-h1{color: navy;}
-
-
+.answers{
+  text-align: left;
 }
 
+.labelRow{
+  padding-right: 10px;
+  text-align: right;
+}
+
+.inputRow{
+  text-align:left;
+}
+
+#tableDiv{
+  margin-left: 220px;
+}
+
+#errorMarg{
+  padding-left: 25px;
+}
+
+@media screen and (max-width:400px) and (min-width:320px){
+
+  .whole {
+    border: 2px solid navy;
+    display: block;
+    margin: auto auto;
+    padding: auto auto;
+    text-align: center;
+    width:95%;
+  }
+
+  #foot{
+    border-top: 2px solid navy;
+    margin-top: 0px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: auto;
+  }
+
+  h1{
+    width: 300px;
+    word-wrap: break-word;    
+  }
+  label {
+    display:block;
+    margin: auto 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align:center;
+    width:auto;
+  }
+  .textBox {
+    display:inline-block;
+    margin: auto auto;
+    margin-left: -45px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center; 
+    width:100px;
+  }
+  #button{
+    display: inline-block;
+    margin: auto auto;
+    margin-left: -85px;
+    text-align: center;
+    width:auto;
+  }
+  #footText{
+    padding-left: 10px;
+  }
+  body{
+    display: inline-block;
+    margin: auto auto;
+    text-align: center;
+    width:100%;
+  }
+  .labelRow{
+    padding-right: 10px;
+    text-align: right;
+  }
+
+  .inputRow{
+    text-align:left;
+  }
+
+  #tableDiv{
+    margin: auto auto;
+  }
+
+}
